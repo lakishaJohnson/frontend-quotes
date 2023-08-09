@@ -5,7 +5,7 @@ Welcome to our Single Resource Project: Quotes! This web application displays qu
 Here's the link to the backend, [GitHub](https://github.com/teegrg/quotes-backend).
 Backend setup instructions are in the Readme file.
 
-View this project's trello board @[Trello](Single Resource Project | Trello).
+View this project's trello board, [Trello](https://trello.com/b/yPZgLx6Y/single-resource-project-trello).
 
 ## Features
 
@@ -58,4 +58,4 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the MIT License.
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/lakisha-johnson-0b0587219/) or check out my other projects on [GitHub](https://github.com/lakishaJohnson).
+Connect with us on [LinkedIn](https://www.linkedin.com/in/lakisha-johnson-0b0587219/) or [GitHub](https://github.com/teegrg)
