@@ -1,0 +1,66 @@
+.Quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f0f0f0; */
+}
+
+.QuoteContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.QuoteCard {
+  background-color: white;
+  background-image: url("https://media.istockphoto.com/id/1318958417/vector/the-pink-background-with-a-white-gradient-is-perfect-for-those-of-you-who-are-looking-for-a.jpg?s=612x612&w=0&k=20&c=wmPsV5GyRTGMPVj8NwTAnc_VN7QPrKWoURZf_OwD8L4=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  flex: 0 1 calc(25% - 20px);
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FavoriteIcon {
+  align-self: flex-end;
+  font-size: 20px;
+  color: gold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.QuoteContent {
+  margin-top: 10px;
+}
+
+.Author {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.QuoteText {
+  font-size: 18px;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.QuoteLink {
+  text-decoration: none;
+  color: black;
+}
+
+.QuoteLink:hover {
+  text-decoration: underline;
+}
