@@ -1,0 +1,46 @@
+/* FOOTER CSS */
+.Footer-Container {
+  background-color: #f0dea6;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.Contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Kisha-Links,
+.Tee-Links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.Contact-Link {
+  color: black;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.Contact-Link:hover {
+  color: blue;
+}
+
+.Tee-Links {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+}
