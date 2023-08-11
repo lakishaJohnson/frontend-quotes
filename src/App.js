@@ -3,23 +3,24 @@ import React from "react";
 
 import Footer from "./Components/Footer";
 
-import Index from "./Pages/Index";
+import Index from "./pages/Index";
 import NavBar from "./controllers/NavBar";
 import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
+      <Router>
       <NavBar />
-      <Home />
-      <div className="App">
-        <Router>
+      {/* <Home /> */}
           <Routes>
+            <Route path="/" element = {<Home />} />
             <Route path="/quotes" element={<Index />} />
           </Routes>
+          <Footer />
         </Router>
-        <Footer />
-      </div>
+        
+      
     </div>
   );
 }
