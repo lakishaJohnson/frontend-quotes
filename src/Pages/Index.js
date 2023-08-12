@@ -1,4 +1,4 @@
-import Quotes from "../Components/Quotes";
+import Quotes from "../components/Quotes";
 
 function Index() {
   return (
