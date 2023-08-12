@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
+  margin-bottom: 100px;
 }
 
 .QuoteCard {
@@ -64,3 +65,18 @@
 .QuoteLink:hover {
   text-decoration: underline;
 }
+
+.index-select-btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.sort-btn {
+  border: 1px solid black;
+  background-color: white;
+}
+.index-background {
+  display: flex;
+  justify-content: space-between;
+}
+
