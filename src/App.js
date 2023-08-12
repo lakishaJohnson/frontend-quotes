@@ -11,16 +11,13 @@ function App() {
   return (
     <div>
       <Router>
-      <NavBar />
-      {/* <Home /> */}
+          <NavBar />
           <Routes>
-            <Route path="/" element = {<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/quotes" element={<Index />} />
           </Routes>
           <Footer />
-        </Router>
-        
-      
+      </Router> 
     </div>
   );
 }

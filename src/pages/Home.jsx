@@ -3,7 +3,7 @@ import Quote from "../controllers/Quote"
 
 function Home() {
     return (
-        <div>
+        <div>      
             <Quote/>
         </div>
     )
