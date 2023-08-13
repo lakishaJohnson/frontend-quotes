@@ -175,6 +175,7 @@ input[type],
 textarea {
   display: block;
   width: 90%;
+  height: 25px;
   margin: auto;
 }
 
