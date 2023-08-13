@@ -4,11 +4,11 @@ import React from "react";
 import NavBar from "./controllers/NavBar";
 import Footer from "./Components/Footer";
 
-import Home from "./pages/Home";
-import Index from "./pages/Index";
-import New from "./pages/New";
-import Show from "./pages/Show";
-import Edit from "./pages/Edit";
+import Home from "./Pages/Home";
+import Index from "./Pages/Index";
+import New from "./Pages/New";
+import Show from "./Pages/Show";
+import Edit from "./Pages/Edit";
 
 function App() {
   return (
