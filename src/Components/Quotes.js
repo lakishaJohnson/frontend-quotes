@@ -58,7 +58,7 @@ function Quotes() {
       .then((response) => setQuotes(response.data))
       .catch((error) => {
         console.warn("catch", error);
-      });
+      });// eslint-disable-next-line
   }, [sortOrder, category, isFavorite, location.search]);
 
   const toggleFavorite = (id) => {
