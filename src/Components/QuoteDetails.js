@@ -89,20 +89,20 @@ function QuoteDetails({ onCategoryChange }) {
           <div>
             {" "}
             <Link to={`/quotes`}>
-              <button className="button">Back</button>
+              <div className="button">Back&nbsp;</div>
             </Link>
           </div>
           <div>
             {" "}
-            <a href={`/quotes/${quote.id}/edit`}>
-              <button className="button">Edit</button>
-            </a>
+            <Link to={`/quotes/${quote.id}/edit`}>
+              <div className="button">Edit&nbsp;</div>
+            </Link>
           </div>
           <div>
             {" "}
-            <button className="button" onClick={deleteQuote}>
-              Delete
-            </button>
+            <div className="button" onClick={deleteQuote}>
+              Delete&nbsp;
+            </div>
           </div>
         </div>
         <div className="comment-div">
@@ -112,9 +112,9 @@ function QuoteDetails({ onCategoryChange }) {
               value={newComment}
               onChange={(event) => setNewComment(event.target.value)}
             />
-            <button className="button" onClick={addComment}>
-              Add Comment
-            </button>
+            <div className="button" onClick={addComment}>
+              Add Comment&nbsp;
+            </div>
           </div>
           <div className="comments-list">
             <ul>

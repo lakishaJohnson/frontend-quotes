@@ -1,4 +1,4 @@
-import QuoteNew from "../components/QouteNew";
+import QuoteNew from "../components/QuoteNew";
 
 function New() {
     return (
