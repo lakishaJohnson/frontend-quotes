@@ -7,12 +7,19 @@ function Show() {
   return (
     <div className="Show">
       <div>
-        <h2 className="category">{quoteCategory}</h2>
+        <h2
+          className="category"
+          style={{
+            fontFamily: "Fantasy",
+            fontSize: "36px",
+          }}
+        >
+          {quoteCategory}
+        </h2>
       </div>
       <QuoteDetails onCategoryChange={setQuoteCategory} />
     </div>
   );
 }
-
 
 export default Show;
