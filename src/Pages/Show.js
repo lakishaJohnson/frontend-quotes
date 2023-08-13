@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import QuoteDetails from "../components/QuoteDetails";
+import QuoteDetails from "../Components/QuoteDetails";
 
 function Show() {
   const [quoteCategory, setQuoteCategory] = useState("");
