@@ -27,7 +27,7 @@ View this project's trello board, [Trello](https://trello.com/b/yPZgLx6Y/single-
 1. Install the dependencies by running npm install in the project directory.
 1. Open file to .env and update the REACT_APP_API_URL variable with the API URL.
 1. Start the development server with npm start.
-1. Open the app in your browser at http://localhost:3003.
+1. Open the app in your browser at http://localhost:3000.
 
 ## Usage
 

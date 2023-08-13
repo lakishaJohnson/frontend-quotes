@@ -1,13 +1,12 @@
 .Quote-Details {
   display: flex;
-  
 }
 
 .card-container {
-    flex: 1;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-  }
+  flex: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 .card {
   border: 1px solid #ccc;
@@ -28,29 +27,30 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
+  font-family: "Great Vibes", cursive;
 }
 
 .button {
-  padding: 8px 16px;
-  background-color: #cc7f5f;
-  color: #fff;
+  font-family: "Great Vibes", cursive;
+  background: none;
   border: none;
-  border-radius: 4px;
+  padding: 0;
   cursor: pointer;
+  color: black;
+  font-size: 28px;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  color: #0056b3;
 }
 
 .category {
   text-align: center;
   margin-bottom: 20px;
-  margin-right: 20%;
 }
 
 .comments-section textarea {
-  width: 90%;
+  width: 100%;
   height: 15%;
   border: 1px solid #bfb9b9;
   border-radius: 5px;
@@ -60,8 +60,10 @@
 }
 
 .comments-section h2 {
-  font-size: 18px;
+  font-size: 36px;
   margin-bottom: 10px;
+  text-align: center;
+  font-family: Fantasy;
 }
 
 .comment-div {
