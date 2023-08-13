@@ -88,6 +88,7 @@ function Quotes() {
   return (
     <div>
       <div className="home-link">
+
         <Link className="home-btn" to="/">
           <div className="home-home">Home &nbsp;&nbsp;&nbsp;| </div>{" "}
         </Link>
@@ -98,6 +99,7 @@ function Quotes() {
       </div>
       <div className="index-background">
         <div className="background"></div>
+
       </div>
       <div>
         <select

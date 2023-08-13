@@ -55,6 +55,12 @@ function QuoteDetails({ onCategoryChange }) {
   };
 
   return (
+    <>
+    <div className="home-link">
+      <Link className="home-btn" to='/'><div className="home-home">Home &nbsp;&nbsp;&nbsp;| </div> </Link>&nbsp;&nbsp;
+      <Link className="home-btn" to='/quotes'><div className="home-index">Index &nbsp;&nbsp;&nbsp;| </div></Link>&nbsp;&nbsp;
+      <Link className="home-btn" to='/quotes/new'><div className="home-new">New &nbsp;&nbsp;</div></Link>
+    </div>  
     <article className="Quote-Details">
       <div className="card-container">
         <button className="print-button" onClick={handlePrint}>
@@ -125,6 +131,7 @@ function QuoteDetails({ onCategoryChange }) {
         </div>
       </div>
     </article>
+    </>
   );
 }
 
