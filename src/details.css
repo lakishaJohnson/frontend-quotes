@@ -70,9 +70,7 @@
 }
 
 .button:hover {
-  color: #0056b3;
   padding-bottom: 4px;
-  
 }
 
 .button:hover::after {
