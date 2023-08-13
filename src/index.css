@@ -163,3 +163,36 @@ a {
   z-index: -1;
 }
 
+/* Form new/edit */
+
+.New form { 
+  margin: auto;
+  margin-top: 10%;
+  width: 50%;
+}
+
+input[type],
+textarea {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  width: 15%;
+}
+
+input[type="submit"] {
+  width: 30%;
+}
+
+.showNavigation {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.card {
+  margin-top: 15%;
+}

@@ -68,9 +68,6 @@ function Quotes() {
                 <Link className="home-btn" to='/'><div className="home-home">Home &nbsp;&nbsp;&nbsp;| </div> </Link>&nbsp;&nbsp;
                 <Link className="home-btn" to='/quotes/new'><div className="home-new">New &nbsp;&nbsp;</div></Link>
             </div> 
-      <div className="index-background">
-        <div className="background"></div>
-      </div> 
       <div className="index-select-btn">
         <div className="sort-btn" onClick={handleSortOrderChange}>
         {sortOrder === "asc" ? "Sort Des" : "Sort Asc"}

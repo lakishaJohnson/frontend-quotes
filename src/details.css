@@ -5,8 +5,8 @@
 
 .card-container {
     flex: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
   }
 
 .card {
@@ -19,6 +19,9 @@
   background-size: cover;
   color: black;
   text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .buttons {
@@ -61,10 +64,16 @@
   margin-bottom: 10px;
 }
 
-/* .comment-div {
- padding-left: 30%;  
-} */
+.comment-div {
+  padding-left: 20px;
+  padding-bottom: 20%; 
+  margin-left: 10%;
+  margin-right: 7%; 
+}
 
+.print-button {
+  margin-left: 10%;
+}
 /* .comments-section {
     padding-right: 100%;
 } */
