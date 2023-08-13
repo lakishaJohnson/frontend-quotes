@@ -144,7 +144,6 @@ function Quotes() {
                 {quote.is_favorite ? <span>⭐️</span> : <span>☆</span>}
               </div>
               <div className="QuoteContent">
-                <p style={{fontFamily: "Fantasy"}}> {quote.category} </p>
                 <p className="Author">{quote.author}</p>
                 <p className="QuoteText">
                   {" "}
