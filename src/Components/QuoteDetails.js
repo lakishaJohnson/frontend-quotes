@@ -111,8 +111,8 @@ function QuoteDetails({ onCategoryChange }) {
               value={newComment}
               onChange={(event) => setNewComment(event.target.value)}
             />
-            <button className="buttons" onClick={addComment}>
-              Add
+            <button className="button" onClick={addComment}>
+              Add Comment
             </button>
           </div>
           <div className="comments-list">
