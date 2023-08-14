@@ -8,7 +8,7 @@ function QuoteEdit() {
     let { id } = useParams();
     let navigate = useNavigate();
 
-    const [quote, setQoute] = useState({
+    const [quote, setQuote] = useState({
         author:"",
         quote:"",
         category:"",
@@ -28,17 +28,17 @@ function QuoteEdit() {
     };
 
     const handleCheckboxChange = () => {
-        setQoute({...quote, is_favorite: !quote.is_favorite})
+        setQuote({...quote, is_favorite: !quote.is_favorite})
     }
 
     const handleTextChange = (event) => {
-        setQoute({...quote, [event.target.id] : event.target.value})
+        setQuote({...quote, [event.target.id] : event.target.value})
     }
 
     useEffect(() => {
         axios
         .get(`${API}/quotes/${id}`)
-        .then((res) => setQoute(res.data))
+        .then((res) => setQuote(res.data))
         .catch((e) => navigate('/not-found'))
     },[id, navigate]);
 
@@ -95,7 +95,6 @@ function QuoteEdit() {
           value={quote.source}
           placeholder="..."
           onChange={handleTextChange}
-          required
         />
         <label htmlFor="year_quoted">Year:</label>
         <input
@@ -105,7 +104,6 @@ function QuoteEdit() {
           value={quote.year_quoted}
           placeholder="date"
           onChange={handleTextChange}
-          required
         />
         <label htmlFor="language">Language:</label>
         <input
