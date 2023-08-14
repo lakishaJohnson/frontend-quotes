@@ -76,6 +76,7 @@ a {
   padding: 5px;
   position: relative; /* Required for positioning the pseudo-element */
   overflow: hidden; /* Hide overflowing content from the pseudo-element */
+  margin-bottom: 50px;
 }
 
 .home-link::before {
