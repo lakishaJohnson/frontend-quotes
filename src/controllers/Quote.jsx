@@ -16,7 +16,6 @@ function Quote() {
 
   return (
     <>
-      <div className="background"></div>
       <div className="home-link">
         <Link className="home-btn" to="/">
           <div className="home-home">Home &nbsp;&nbsp;&nbsp;| </div>{" "}
