@@ -21,6 +21,7 @@
   margin-top: 5px;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 10%;
 }
 
 .buttons {
@@ -28,6 +29,7 @@
   justify-content: space-evenly;
   margin-top: 20px;
   font-family: "Great Vibes", cursive;
+  margin-top: 0%;
 }
 
 .print-button,
@@ -40,7 +42,7 @@
   height: 50px; 
   border: none;
   border-radius: 8px;
-  background-color: #FFFFFF; 
+  background-color:transparent; 
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

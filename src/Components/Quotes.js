@@ -97,10 +97,6 @@ function Quotes() {
           <div className="home-new">New &nbsp;&nbsp;</div>
         </Link>
       </div>
-      <div className="index-background">
-        <div className="background"></div>
-
-      </div>
       <div>
         <select
           value={sortOrder}
