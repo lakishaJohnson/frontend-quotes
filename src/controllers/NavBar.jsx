@@ -2,13 +2,16 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav>
+    <>
+    <div className="background"></div>
+    <nav>  
       <Link to="/">
         <div>
           <span>Q</span>uotes
         </div>
       </Link>
     </nav>
+    </>
   );
 }
 
